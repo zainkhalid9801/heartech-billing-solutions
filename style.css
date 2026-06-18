@@ -1,40 +1,46 @@
 body {
   margin: 0;
   font-family: Arial;
-  background: #fff;
-  color: #111;
+  background: #000;
+  color: gold;
+  line-height: 1.6;
 }
 
 /* Header */
 header {
   text-align: center;
-  padding: 20px;
-  border-bottom: 1px solid #ddd;
+  padding: 25px;
+  border-bottom: 1px solid gold;
+}
+
+header h1 {
+  color: gold;
+}
+
+header p {
+  color: #d4af37;
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+  text-align: center;
 }
 
 /* Hero */
 .hero {
-  text-align: center;
-  padding: 60px 20px;
   background: #111;
-  color: gold;
+  border-top: 1px solid gold;
+  border-bottom: 1px solid gold;
 }
 
-/* Services */
-.services {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 10px;
-}
-
+/* Cards */
 .card {
-  padding: 15px;
-  border: 1px solid #ddd;
+  border: 1px solid gold;
+  padding: 18px;
+  margin: 10px auto;
+  width: 85%;
+  max-width: 600px;
   transition: 0.3s;
 }
 
@@ -43,24 +49,22 @@ header {
   color: black;
 }
 
-/* CEO */
-.ceo {
-  text-align: center;
-  padding: 40px;
-  background: #f5f5f5;
+/* About / Services / Team */
+.about, .services, .workflow, .team {
+  background: #000;
 }
 
 /* Contact */
 .contact {
-  text-align: center;
-  padding: 20px;
-  background: black;
-  color: white;
+  background: #111;
+  border-top: 1px solid gold;
+  border-bottom: 1px solid gold;
 }
 
 /* Footer */
 footer {
   text-align: center;
-  padding: 10px;
-  font-size: 12px;
+  padding: 15px;
+  font-size: 13px;
+  border-top: 1px solid gold;
 }
